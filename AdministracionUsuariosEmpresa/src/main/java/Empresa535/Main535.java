@@ -17,19 +17,19 @@ public class Main535 {
          opc=sc.nextInt();
          switch (opc){
              case 1:
-                 Usuario535 empleado = new Usuario535("juan torres","Empleado Regular","torresjuan@correo.com");
+                 Empleado535 empleado = new Empleado535("juan torres","torresjuan@correo.com","Empleado Regular",27,30);
                  System.out.println(empleado.mostrarDetalles());
                  System.out.println(empleado.detallesEmpleadoRegular());
                  System.out.println("------------------");
             break;
              case 2:
-                 Usuario535 supervisor = new Usuario535("Maria Perez","Supervisor","perezmaria@correo.com");
+                 Supervisor535 supervisor = new Supervisor535("Maria Perez","perezmaria@correo.com","Supervisor",20,10);
                  System.out.println(supervisor.mostrarDetalles());
                  System.out.println(supervisor.detallesSupervisor());
                  System.out.println("------------------");
             break;
              case 3:
-                 Usuario535 administrador = new Usuario535("Carlos Muñoz","Administrador","muñozcarlos@correo.com");
+                 Administrador535 administrador = new Administrador535("Carlos Muñoz","muñozcarlos@correo.com","Administrador",30,20);
                  System.out.println(administrador.mostrarDetalles());
                  System.out.println(administrador.detallesAdministrador());
                  System.out.println("------------------");
